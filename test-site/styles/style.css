@@ -1,0 +1,49 @@
+
+
+html {
+  font-size: 10px;  /*設定整個頁面字型像素為10*/
+  font-family: "Noto Sans TC", sans-serif; /*字型樣板指定code*/
+  background-color:#00539F; /*背景設定藍色*/
+}
+body{
+	width:600px; /*設置背景寬度為600像素*/
+	margin:0 auto; /*margin 代表網頁內容最外層,前者參數關係頂&底起始位置,後者參數設置auto為上下左右水平空間均勻分配*/
+	padding:0 20px 20px 20px; /*padding 代表內容周圍的空格（例:段落文字周圍）,此處設置四個參數分別代表上、右、下、左,用來顯示內容周圍有空間*/
+	background-color:#FF9500; /*body背景色設置橘色*/
+	border:5px solid black; /*border 代表矩形內容外部實線,設置5像素寬的實線黑框*/
+}
+h1 {
+	font-size:80px;
+	text-align:center;/*將字串至中*/
+	margin:0;/*為了消除差距，通過設置 margin: 0; 來覆蓋默認樣式。*/
+	padding:20px 0px; /*將標題的頂部和底部填充設置為 20 像素，並使標題文本的顏色與 html 背景顏色相同。*/
+	color:#00539F;/*顏色如上述*/
+	text-shadow:3px 3px 4px black; /*陰影設定*/
+  /*四個參數設定:
+  [1]第一個像素值設置陰影與文本的水平偏移量——它移動了多遠：負值應該將它移動到左邊。
+  [2]第二個像素值設置陰影與文本的垂直偏移量——在本例中，它向下移動了多遠；負值應該向上移動。
+  [3]第三個像素值設置陰影的模糊半徑——值越大，陰影越模糊。
+  [4]第四個值設置陰影的基本顏色。*/
+}
+img{
+	display:block;/*要動用圖像的邊距需先透過此行做取消,因上面的body已經有設定過了*/
+	margin:0 auto;/*讓圖像至中*/
+}
+
+/* p,li,h3是原數,也就是index內<>的參數*/
+/*p,li,h3{
+	color:red;
+	width: 500px;
+	border: 1px solid black;
+}
+hi{
+	color: red;
+	font-size: 60px;
+	text-align: center;
+}
+p,li {
+  color: blue;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}*/
