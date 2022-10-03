@@ -39,10 +39,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function(){
 	let mySrc = myImage.getAttribute('src');
-	if (mySrc === 'images/images.jpg'){
-		myImage.setAttribute('src','images/imageaa.png');
+	if (mySrc === '/test-site/images/images.jpg'){
+		myImage.setAttribute('src','/test-site/images/imageaa.png');
 	}else{
-		myImage.setAttribute('src','images/images.jpg');
+		myImage.setAttribute('src','/test-site/images/images.jpg');
 	}
 }
 
