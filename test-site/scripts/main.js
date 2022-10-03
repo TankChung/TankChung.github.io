@@ -44,7 +44,7 @@ myImage.onclick = function(){
 	}
 	if (mySrc === './test-site/images/imageaa.png'){
 		myImage.setAttribute('src','./test-site/images/images.jpg');
-	}else{
+	}else if (mySrc === './test-site/images/images.jpg'){
 		myImage.setAttribute('src','./test-site/images/imageaa.png');
 	}
 }
