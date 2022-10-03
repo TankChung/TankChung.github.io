@@ -39,10 +39,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function(){
 	let mySrc = myImage.getAttribute('src');
-	if (mySrc === '/test-site/images/images.jpg'){
-		myImage.setAttribute('src','./test-site/images/imageaa.png');
+	if (mySrc === '/test-site/images/images.jpg'){ //以index.html為出發點之路徑
+		myImage.setAttribute('src','./test-site/images/imageaa.png'); //以js為出發點之路徑
 	}
-	if (mySrc === './test-site/images/imageaa.png'){
+	if (mySrc === './test-site/images/imageaa.png'){ //後因路徑皆為js出發,故以下皆為已js為出發點之路徑
 		myImage.setAttribute('src','./test-site/images/images.jpg');
 	}else if (mySrc === './test-site/images/images.jpg'){
 		myImage.setAttribute('src','./test-site/images/imageaa.png');
